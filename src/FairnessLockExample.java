@@ -15,7 +15,7 @@ public class FairnessLockExample {
                     +" acquired the lock."
             );
             Thread.sleep(3000);
-        }catch (Exception e){
+        }catch (Exception  e){
             Thread.currentThread().interrupt();
         }finally {
             System.out.println(Thread.currentThread().getName()
